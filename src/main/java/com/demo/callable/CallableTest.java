@@ -1,10 +1,11 @@
 package com.demo.callable;
 
-import java.io.File;
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
+/**
+ * 新添加callable的多线程实现方式
+ */
 public class CallableTest {
 
     public static void main(String[] args) {
